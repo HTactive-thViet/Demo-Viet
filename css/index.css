@@ -1,0 +1,106 @@
+div.container {
+    background-color: #ffe047c7;
+    width: 100%;
+}
+
+.content{
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+    border-top: solid 1px;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+    border-left: solid 1px;
+}
+
+.gioithieu{
+    height: 100px;
+    width: 80%;
+    margin: 30px;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+}
+
+div.container div.logo img{
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+}
+
+.congty{
+    float: left;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+}
+
+hr{
+    clear: both;
+    margin: 10px;
+    border: solid 1px orange;
+}
+
+.tencongty h1{
+    font-size: 40px;
+    margin: 0;
+    color: darkorange;
+    text-shadow: 2px 1px black;
+}
+.slogan p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.noidung{
+    width: 95%;
+    margin: 30px;
+    justify-content: center;
+}
+.noidung1{
+    width: 100%;
+}
+.noidung2{
+    width: 100%;;
+}
+.noidung > ul > li{
+    margin: 2px;
+}
+.noidung  ul li:nth-of-type(1) a {
+   color: grey;
+}
+.noidung  ul li:nth-of-type(2) a {
+    color: grey;
+ }
+ .noidung  ul li a {
+    color: purple;
+ }
+ footer{
+     float: right;
+     margin-right: 10px;
+     margin-bottom: 10px;
+ }
+ @media all and (min-width: 320px) and (max-width: 1080px) {
+    .tencongty>h1{
+        font-size: 20px;
+    }
+    .slogan>p{
+        font-size: 14px;
+    }
+    .noidung1>h1{
+        font-size: 20px;
+    }
+    .noidung2>h2{
+        font-size: 16px;
+    }
+    .noidung {
+        width: 85%;
+        margin: 30px 0 0 30px;
+        justify-content: center;
+    }
+  }
